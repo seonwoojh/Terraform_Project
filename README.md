@@ -3,7 +3,7 @@
 <br/>
 
 
-[🙋‍♀️ppt 확인하기]([https://github.com/seonwoojh/Terraform_Project/blob/main/IaC 프로젝트_F조_최종본.pdf](https://github.com/seonwoojh/Terraform_Project/blob/main/IaC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_F%EC%A1%B0_%EC%B5%9C%EC%A2%85%EB%B3%B8.pdf))
+![🙋‍♀️ppt 확인하기]([https://github.com/seonwoojh/Terraform_Project/blob/main/IaC 프로젝트_F조_최종본.pdf](https://github.com/seonwoojh/Terraform_Project/blob/main/IaC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_F%EC%A1%B0_%EC%B5%9C%EC%A2%85%EB%B3%B8.pdf))
 
 <br/>
 
@@ -19,19 +19,19 @@ AWS 서비스와 IaC 도구인 Ansible과 Terraform의 이해를 돕기위해 Te
     
 ## b. 프로젝트 요약
 
-![Untitled](IaC%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%8B%E1%85%A7%20Azure%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%83%E1%85%B3%E1%84%8B%E1%85%A6%20wordpress%20%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9%E1%84%92%205756944bb4ce4a9fa14740c4139393d9/Untitled.png)
+![Untitled](https://github.com/seonwoojh/Terraform_Project/blob/main/images/Untitled.png)
 
 <br/>
    
-프로젝트 일정
+## 프로젝트 일정
 <br/>
-![일정표.png](IaC%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%8B%E1%85%A7%20Azure%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%83%E1%85%B3%E1%84%8B%E1%85%A6%20wordpress%20%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9%E1%84%92%205756944bb4ce4a9fa14740c4139393d9/%EC%9D%BC%EC%A0%95%ED%91%9C.png)
+![일정표](https://github.com/seonwoojh/Terraform_Project/blob/main/images/%EC%9D%BC%EC%A0%95%ED%91%9C.png)
 
 ## c. Azure 시스템 아키텍처
 
 ### 시스템 동작 구조
 
-![azure 전체 시스템 동작.png](IaC%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%8B%E1%85%A7%20Azure%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%83%E1%85%B3%E1%84%8B%E1%85%A6%20wordpress%20%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9%E1%84%92%205756944bb4ce4a9fa14740c4139393d9/azure_%EC%A0%84%EC%B2%B4_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EB%8F%99%EC%9E%91.png)
+![azure 전체 시스템 동작.png](https://github.com/seonwoojh/Terraform_Project/blob/main/images/azure_%EC%A0%84%EC%B2%B4_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EB%8F%99%EC%9E%91.png)
 
 전체 시스템 동작 구조는 다음과 같다.
 가상머신에서 Packer를 이용해 Ansible Playbook을 실행하여 이미지를 만든다.
@@ -51,7 +51,7 @@ Terraform을 이용해 클라우드에 리소스를 생성할 때 VMSS 이미지
 
 **Azure 클라우드 시스템 아키텍처**
 
-![azure.png](IaC%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%8B%E1%85%A7%20Azure%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%84%8B%E1%85%AE%E1%84%83%E1%85%B3%E1%84%8B%E1%85%A6%20wordpress%20%E1%84%87%E1%85%A2%E1%84%91%E1%85%A9%E1%84%92%205756944bb4ce4a9fa14740c4139393d9/azure.png)
+![azure.png](https://github.com/seonwoojh/Terraform_Project/blob/main/images/azure.png)
 
 전체 아키텍처 개요
 
