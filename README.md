@@ -27,18 +27,30 @@ AWS 서비스와 IaC 도구인 Ansible과 Terraform의 이해를 돕기위해 Te
 <br/>
 ![일정표](https://github.com/seonwoojh/Terraform_Project/blob/main/images/%EC%9D%BC%EC%A0%95%ED%91%9C.png)
 
+<br/>
+    
 ## c. Azure 시스템 아키텍처
 
+<br/>
+    
 ### 시스템 동작 구조
-
+    
+<br/>
+    
 ![azure 전체 시스템 동작.png](https://github.com/seonwoojh/Terraform_Project/blob/main/images/azure_%EC%A0%84%EC%B2%B4_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EB%8F%99%EC%9E%91.png)
-
+    
+<br/>
+    
 전체 시스템 동작 구조는 다음과 같다.
 가상머신에서 Packer를 이용해 Ansible Playbook을 실행하여 이미지를 만든다.
 Terraform을 이용해 클라우드에 리소스를 생성할 때 VMSS 이미지에 해당 이미지를 사용한다.
-
+    
+<br/>
+    
 **사용한 서비스 목록**
-
+    
+<br/>
+    
 | Vagrant | 가상 시스템 환경을 구축하고 관리하기위한 도구 |
 | --- | --- |
 | Virtual Machine | 컴퓨터 시스템을 에뮬레이션하는 소프트웨어 |
@@ -46,14 +58,16 @@ Terraform을 이용해 클라우드에 리소스를 생성할 때 VMSS 이미지
 | Packer | 클라우드 이미지 및 컨테이너 이미지를 자동으로 빌드하는 도구 |
 | Terraform | 인프라스트럭쳐 구축 및 운영의 자동화를 지향하는 오픈 소스 IaC 도구  |
 | Visual Studio Code | 디버깅 지원과 Git 제어, 구문 강조 기능등이 포함된 소스 코드 편집기 |
-
+    
+<br/>
+    
 ### 시스템 아키텍처
 
 **Azure 클라우드 시스템 아키텍처**
 
 ![azure.png](https://github.com/seonwoojh/Terraform_Project/blob/main/images/azure.png)
 
-전체 아키텍처 개요
+### 전체 아키텍처 개요
 
 Terraform을 이용한 Azure Wordpress 아키텍처는 `Korea Central Region`에 위치하고 있다. 
 
@@ -64,7 +78,9 @@ Terraform을 이용한 Azure Wordpress 아키텍처는 `Korea Central Region`에
 Zone1, Zone2 두 곳의 `Availability Zone`을 지정하고 `가상 머신 확장 집합(VMSS)`을 통해 Instance를 관리하도록 구성하여 `Single Point of Failure를 방지하고 HA를 확보`하기 위해 설계되었다.
 
 가상 머신 확장 집합 VMSS는 두 곳의 가용성 영역에 각각 `2개씩 총 4개의 VM`을 관리하도록 설계하였다.  여기서 사용된 VM 이미지는 `Packer`와 `Ansible Playbook`을 활용하여 만든 사용자 VM 이미지를 활용한다.
-
+    
+<br/>
+    
 **사용한 Azure 서비스 목록**
 
 | Region | Korea Central |
