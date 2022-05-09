@@ -1,9 +1,15 @@
 # <center> IaC를 이용하여 Azure 클라우드에 wordpress 배포하기 <center/>
 
+프로젝트에 대한 자세한 내용은 다음 아래 링크에서 확인하실 수 있습니다.
+
 <br/>
 
 
-![🙋‍♀️ppt 확인하기]([https://github.com/seonwoojh/Terraform_Project/blob/main/IaC 프로젝트_F조_최종본.pdf](https://github.com/seonwoojh/Terraform_Project/blob/main/IaC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_F%EC%A1%B0_%EC%B5%9C%EC%A2%85%EB%B3%B8.pdf))
+[🙋‍♀️ppt 확인하기](https://github.com/seonwoojh/Terraform_Project/blob/main/IaC%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_F%EC%A1%B0_%EC%B5%9C%EC%A2%85%EB%B3%B8.pdf)
+
+<br/>
+    
+[🙋‍♀️프로젝트 문서(Markdown) 확인하기](https://github.com/seonwoojh/Terraform_Project/blob/main/IaC%EB%A5%BC_%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC_Azure_%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EC%97%90_wordpress_%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0.pdf)
 
 <br/>
 
@@ -24,7 +30,9 @@ AWS 서비스와 IaC 도구인 Ansible과 Terraform의 이해를 돕기위해 Te
 <br/>
    
 ## 프로젝트 일정
+
 <br/>
+
 ![일정표](https://github.com/seonwoojh/Terraform_Project/blob/main/images/%EC%9D%BC%EC%A0%95%ED%91%9C.png)
 
 <br/>
@@ -62,10 +70,14 @@ Terraform을 이용해 클라우드에 리소스를 생성할 때 VMSS 이미지
 <br/>
     
 ### 시스템 아키텍처
-
+    
+<br/>
+    
 **Azure 클라우드 시스템 아키텍처**
 
 ![azure.png](https://github.com/seonwoojh/Terraform_Project/blob/main/images/azure.png)
+
+<br/>
 
 ### 전체 아키텍처 개요
 
