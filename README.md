@@ -9,7 +9,7 @@
 
 <br/>
     
-[🙋‍♀️프로젝트 문서(Markdown) 확인하기](https://github.com/seonwoojh/Terraform_Project/blob/main/IaC%EB%A5%BC_%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC_Azure_%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C%EC%97%90_wordpress_%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0.pdf)
+[🙋‍♀️프로젝트 문서(Markdown) 확인하기](https://shared-nova-d5b.notion.site/IaC-Azure-wordpress-3c871071f1b24d7bae721aa9fd6772e7)
 
 <br/>
 
